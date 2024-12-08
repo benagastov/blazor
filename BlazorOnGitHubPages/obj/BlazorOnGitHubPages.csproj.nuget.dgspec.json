@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "/content/BlazorOnGitHubPages/BlazorOnGitHubPages.csproj": {}
+  },
+  "projects": {
+    "/content/BlazorOnGitHubPages/BlazorOnGitHubPages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/content/BlazorOnGitHubPages/BlazorOnGitHubPages.csproj",
+        "projectName": "BlazorOnGitHubPages",
+        "projectPath": "/content/BlazorOnGitHubPages/BlazorOnGitHubPages.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/content/BlazorOnGitHubPages/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Build": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/content/output/wwwroot/dotnet/sdk/8.0.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

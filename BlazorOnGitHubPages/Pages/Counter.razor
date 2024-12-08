@@ -1,0 +1,28 @@
+@page "/counter"
+@inject IJSRuntime JSRuntime
+
+<h1>Counter</h1>
+
+<p>Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    private int currentCount = 0;
+
+    private async Task IncrementCount()
+    {
+        // Call JS function inline using JSRuntime
+        await JSRuntime.InvokeVoidAsync("eval", @"
+            (function() {
+                // Your JS logic here
+                let count = " + currentCount + @";
+                count++;
+                alert('Add 1 by using Javascript');
+                return count;
+            })()
+        ").AsTask();
+        
+        currentCount++;
+    }
+}

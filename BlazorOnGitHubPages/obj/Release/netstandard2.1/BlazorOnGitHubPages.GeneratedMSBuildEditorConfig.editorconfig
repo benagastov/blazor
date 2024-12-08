@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = BlazorOnGitHubPages
+build_property.ProjectDir = /content/BlazorOnGitHubPages/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
